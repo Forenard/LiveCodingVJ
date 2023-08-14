@@ -1,0 +1,5 @@
+midi_devices:
+  - "MIDI Mix"
+  - "MIDI"
+  - "Mix"
+audio_device: "Yamaha"

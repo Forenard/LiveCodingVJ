@@ -1,0 +1,30 @@
+# https://github.com/slerpyyy/sh4der-jockey/blob/main/docs/readme_jp.md
+stages:
+  - fs: "shader/buffer.frag"
+    target: "backbuffer"
+    float: true
+    wrap: clamp
+    filter: linear
+  - fs: "shader/main.frag"
+
+audio:
+  audio_samples: 8192
+  spectrum:
+    mipmap: true
+    filter: linear
+  raw_spectrum:
+    mipmap: true
+    filter: linear
+  samples:
+    mipmap: true
+    filter: linear
+
+# stages:
+#   - fs: "shader/buffer.frag"
+#     target: "backbuffer"
+#     resolution: [1920, 1080]
+#     float: true
+#     wrap: clamp
+#     filter: linear
+#   - fs: "shader/main.frag"
+#     resolution: [1920, 1080]
